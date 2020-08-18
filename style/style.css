@@ -1,0 +1,140 @@
+body {
+    background-color: #f8f8f8;
+}
+
+.begin {
+    text-align: center;
+}
+
+.menu li a {
+    color: cornflowerblue;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: deeppink;
+
+}
+
+.menu li a:active {
+    color: forestgreen;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+
+.catalogpage {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #ccc;
+}
+
+.shortdescription {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.description {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.specs {
+    color: orangered;
+    list-style-image: url(../img/check.png);
+    font-size: 15px;
+    font-style: oblique;
+    line-height: 22px;
+}
+
+.tablespecs {
+    border: 1px solid black;
+    width: 100px;
+    height: 15px;
+    text-align: center;
+}
+
+.tablespecs td {
+    border: 1px solid black;
+    width: 100px;
+    height: 15px;
+}
+
+
+.message input {
+    color: black;
+    font-size: 13px;
+    font-style: normal;
+    width: 150px;
+    height: 18px;
+}
+
+input[type="text"] {
+    text-transform: capitalize;
+}
+
+
+input[type="email"]:hover {
+    color: mediumaquamarine;
+    background-color: floralwhite;
+}
+
+input[type="submit"] {
+    width: 150px;
+    height: 25px;
+}
+
+.message textarea {
+    color: black;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.message textarea {
+    text-transform: capitalize;
+}
+
+img[alt="error"] {
+    outline: 2px solid aqua;
+}
+
+img[alt="error"]:hover {
+    outline: none;
+}
+
+.shortdescription:first-letter {
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.description:first-letter {
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.uppercell,
+rightcell {
+    padding: 10px 15px;
+}
+
+
+.link {
+    text-decoration: none;
+    text-transform: lowercase;
+    color: cornflowerblue;
+}
+
+.link2 {
+    color: cornflowerblue;
+    text-decoration: none;
+}
